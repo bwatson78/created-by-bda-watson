@@ -15,6 +15,8 @@ class Header extends Component {
             <Col sm={4}>
               <SocialIcon url="http://twitter.com/BradleyWatson"/>
               <SocialIcon url="http://github.com/bwatson78"/>
+              <SocialIcon url="mailto:brad.watson.orlando@gmail.com"/>
+              <SocialIcon url="https://www.pinterest.com/bradwatsonorlan/"/>
             </Col>
           </Row>
         </Container>
