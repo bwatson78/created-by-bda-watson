@@ -17,3 +17,34 @@
 a.social-icon {
 	margin: 5% 5px;
 }
+
+.nav-links {
+	margin: 0 5%;
+}
+
+.navbar, .main-nav {
+	width: 100%;
+}
+
+.row, .container {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+@media (max-width: 600px) {
+	.headline {font-size: 26px;}
+	a.social-icon {
+		width: 40px !important;
+		height: 40px !important;
+	}
+}
+
+@media (max-width: 400px) {
+	.headline {font-size: 20px;}
+	a.social-icon {
+		width: 30px !important;
+		height: 30px !important;
+		margin: 5% 1px;
+	}
+	a.nav-links {font-size: 12px;}
+}

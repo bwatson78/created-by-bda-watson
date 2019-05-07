@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 import { SocialIcon } from 'react-social-icons';
+import Image from 'react-bootstrap/Image';
 
 class Header extends Component {
   render() {
@@ -12,7 +13,7 @@ class Header extends Component {
       <header className="App-header">
         <Container>
           <Row>
-            <Col></Col>
+            <Col><Image src={process.env.PUBLIC_URL + '/headshot.jpeg'} rounded fluid /></Col>
             <Col><h1 className="headline">Created By B.D.A. Watson</h1></Col>
             <Col>
               <SocialIcon url="http://twitter.com/BradleyWatson"/>
@@ -24,9 +25,9 @@ class Header extends Component {
           <Row>
             <Navbar bg="dark" variant="dark" expand="lg">
               <nav className="main-nav">
-                <Link to='/'>About B.D.A.</Link>
-                <Link to='/portfolio'>Portfolio</Link>
-                <Link to='/blogs'>Blogs</Link>
+                <Link className="nav-links" to='/'>About B.D.A.</Link>
+                <Link className="nav-links" to='/portfolio'>Portfolio</Link>
+                <Link className="nav-links" to='/blogs'>Blogs</Link>
               </nav>
             </Navbar>
           </Row>
