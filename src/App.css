@@ -8,6 +8,10 @@
   color: white;
 }
 
+.main.container {
+	margin-top: 1%;
+	background-color: #F1F7F8;
+}
 .headline {
   margin-block-start: unset;
   margin-block-end: unset;
@@ -29,6 +33,15 @@ a.social-icon {
 .row, .container {
 	padding-top: 1%;
 	padding-bottom: 1%;
+}
+
+.projectHeader {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.construction {
+	max-height: 75px;
 }
 
 @media (max-width: 600px) {

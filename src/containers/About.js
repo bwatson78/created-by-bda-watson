@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col'
 class About extends Component {
   render() {
     return (
-      <Container>
+      <Container className="main">
       	<Row>
 	      <Col md={3}>
 	      	<Image src={process.env.PUBLIC_URL + '/headshot.jpeg'} rounded fluid />
@@ -29,7 +29,8 @@ class About extends Component {
 		   	</p> 
 		   	<p>
 		   	  When not soaking in the radiation rays from a computer monitor, Brad geeks out
-		   	  on all things cinema. 
+		   	  on all things cinema. His collection of movie posters and soundtracks grows monthly.
+		   	  
 		   	</p>
 		  </Col>
 	   	</Row>
