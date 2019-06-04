@@ -11,15 +11,33 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <Container>
+        <Container className="Head-Contain">
           <Row>
             <Col><Image src={process.env.PUBLIC_URL + '/headshot.jpeg'} rounded fluid /></Col>
             <Col><h1 className="headline">Created By B.D.A. Watson</h1></Col>
             <Col>
-              <SocialIcon url="http://twitter.com/BradleyWatson"/>
-              <SocialIcon url="http://github.com/bwatson78"/>
-              <SocialIcon url="mailto:brad.watson.orlando@gmail.com"/>
-              <SocialIcon url="https://www.pinterest.com/bradwatsonorlan/"/>
+              
+              
+              <SocialIcon 
+                url="mailto:brad.watson.orlando@gmail.com"
+                target="_blank" 
+                rel="noopener noreferrer"
+              />
+              <SocialIcon 
+                url="https://www.pinterest.com/bradwatsonorlan/"
+                target="_blank" 
+                rel="noopener noreferrer"
+              />
+              <SocialIcon 
+                url="http://twitter.com/BradleyWatson"
+                target="_blank" 
+                rel="noopener noreferrer"
+              />
+              <SocialIcon 
+                url="http://github.com/bwatson78"
+                target="_blank" 
+                rel="noopener noreferrer"
+              />
             </Col>
           </Row>
           <Row>

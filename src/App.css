@@ -16,13 +16,15 @@
   margin-block-start: unset;
   margin-block-end: unset;
   padding: 10px 0px;
+  font-size: 62px;
 }
 
 a.social-icon {
 	margin: 5% 5px;
+	float: right;
 }
 
-.nav-links {
+.nav-links, .Head-Contain {
 	margin: 0 5%;
 }
 
@@ -42,6 +44,19 @@ a.social-icon {
 
 .construction {
 	max-height: 75px;
+}
+
+.Head-Contain {
+	max-width: unset;
+	width: 90%;
+}
+
+@media (max-width: 1000px) {
+	.headline {font-size: 54px;}
+}
+
+@media (max-width: 800px) {
+	.headline {font-size: 44px;}
 }
 
 @media (max-width: 600px) {
