@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Route } from "react-router-dom";
 import About from './About.js';
-import Portfolio from './Portfolio.js'
+import Portfolio from './Portfolio.js';
+import Blog from './Blog.js';
 
 class Routes extends Component {
   render() {
@@ -9,7 +10,7 @@ class Routes extends Component {
       <div>
       	<Route path='/' exact component={About}/>
       	<Route path='/portfolio' component={Portfolio}/>
-      	<Route/>
+      	<Route path='/blogs' component={Blog}/>
       </div>	
     );
   }

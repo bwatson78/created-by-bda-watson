@@ -9,11 +9,11 @@ class Portfolio extends Component {
   render() {
     return (
       <Container className="main">
-      	<ThisPage />
-	   	<WallOfZen />
-	   	<BluWish />
-	   	<NowPlaying />
-	  </Container>  
+        <ThisPage />
+	   	  <WallOfZen />
+	   	  <BluWish />
+	      <NowPlaying />
+	    </Container>  
     )
   }
 };
