@@ -13,8 +13,8 @@ class Header extends Component {
       <header className="App-header">
         <Container className="Head-Contain">
           <Row>
-            <Col><Image src={process.env.PUBLIC_URL + '/headshot.jpeg'} rounded fluid /></Col>
-            <Col><h1 className="headline">Created By B.D.A. Watson</h1></Col>
+            <Col className="align-self-center"><Image src={process.env.PUBLIC_URL + '/site_logo.png'} rounded fluid /></Col>
+            <Col className="align-self-center"><h1 className="headline">Created By B.D.A. Watson</h1></Col>
             <Col>
               
               
