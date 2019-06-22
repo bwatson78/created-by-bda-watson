@@ -52,7 +52,14 @@ a.social-icon {
 	width: 90%;
 }
 
-.img-fluid {
+.footie {
+	text-align: center;
+	padding: 1%;
+}
+
+.copyText {
+	margin-top: 1rem;
+	margin-bottom: unset;
 }
 
 @media (max-width: 1000px) {
