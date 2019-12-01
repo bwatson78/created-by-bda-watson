@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 
 
@@ -23,14 +22,10 @@ class WallOfZen extends Component {
 	   	        React Frontend
 	   	      </a>  
 	   	      <small> (Github)</small>
-	   	      <Image 
-	   	        className="construction" 
-	   	        src="http://pngimg.com/uploads/under_construction/under_construction_PNG25.png"
-	   	      />
 	   	    </li>
 	   	    <li>
 	   	      <a 
-	   	        href="https://github.com/bwatson78/wall-of-zen-api-v-000" 
+	   	        href="https://github.com/bwatson78/wall-of-zen-api-v-000"
 	   	        target="_blank"
 	   	        rel="noopener noreferrer"
 	   	      >
