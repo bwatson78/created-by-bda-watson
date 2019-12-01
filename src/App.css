@@ -16,12 +16,14 @@
   margin-block-start: unset;
   margin-block-end: unset;
   padding: 10px 0px;
-  font-size: 62px;
+  font-size: 42px;
   text-align: center;
 }
 
 a.social-icon {
 	margin: 5% 5px;
+	height: 60px !important;
+	width: 60px !important;
 	float: right;
 }
 
@@ -62,28 +64,54 @@ a.social-icon {
 	margin-bottom: unset;
 }
 
+.icon {
+	max-height: 125px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.social-icon-box {
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+}
+
 @media (max-width: 1000px) {
-	.headline {font-size: 54px;}
+	.headline {font-size: 36px;}
+	a.social-icon {
+		height: 55px !important;
+		width: 55px !important;
+	}
+	.icon {max-height: 105px;}
 }
 
 @media (max-width: 800px) {
-	.headline {font-size: 34px;}
+	.headline {font-size: 25px;}
+	a.social-icon {
+		height: 38px !important;
+		width: 38px !important;
+	}
+	.icon {max-height: 80px;}
 }
 
 @media (max-width: 600px) {
 	.headline {font-size: 20px;}
 	a.social-icon {
-		width: 40px !important;
-		height: 40px !important;
+		width: 30px !important;
+		height: 30px !important;
+		margin: 5% 1px;
 	}
+	a.nav-links {font-size: 14px;}
+	.icon {max-height: 65px;}
 }
 
 @media (max-width: 400px) {
 	.headline {font-size: 15px;}
 	a.social-icon {
-		width: 30px !important;
-		height: 30px !important;
-		margin: 5% 1px;
+		width: 24px !important;
+		height: 24px !important;
 	}
 	a.nav-links {font-size: 12px;}
+	.icon {max-height: 55px;}
 }
